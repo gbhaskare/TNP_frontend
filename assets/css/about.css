@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* .circle{
+
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 2rem 0;
+  color: #f36959;
+  border-bottom: 2px solid #f36959;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.recruiters {
+  margin-top: 2rem;
+  color: #f36959;
+  border-bottom: 2px solid #f36959;
+}

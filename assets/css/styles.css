@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/watercolor-gbe837fe01_1920.png');
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.navbarContainer .logo {
+  color: #f36959;
+}
+
+.navbarContainer .navLink a {
+  margin-right: 1rem;
+  font-size: 16px;
+  color: #f36959;
+}
+
+.navbarContainer .navLink a:hover {
+  border-bottom: #f36959 solid 1px;
+  transition: all 0.3s linear;
+}
+
+.mainContainer {
+  height: calc(100vh - 3rem);
+  width: 100%;
+}
+
+.mainContainer .right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer .right .heading {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0.2rem;
+}
+
+.mainContainer .right .paragraph {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* .mainContainer .right .btns {
+  background: #000;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: #f36959;
+  cursor: pointer;
+  border: 1px solid #f36959;
+}
+
+.btn:hover {
+  background-color: #f36959;
+  color: #fff;
+}
+
+.btnSignUp {
+  margin-right: 1rem;
+  box-sizing: content-box;
+}
