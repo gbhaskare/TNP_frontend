@@ -33,3 +33,13 @@
   color: #f36959;
   border-bottom: 2px solid #f36959;
 }
+
+.recruitersSection {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
